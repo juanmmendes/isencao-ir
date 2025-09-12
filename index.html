@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Isenção de IR por Doença Grave | Marinho Mendes Sociedade de Advogados</title>
+  <meta name="description" content="Isenção de Imposto de Renda para aposentados e pensionistas com doenças graves. Conteúdo técnico, atualizado e ético conforme OAB. Fale com nossos advogados pelo WhatsApp e receba orientação segura para o seu caso." />
+  <link rel="canonical" href="https://marinhomendes.adv.br/isenção-ir-doencas-graves" />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Isenção de IR por Doença Grave | Marinho Mendes" />
+  <meta property="og:description" content="Direito à isenção de IR para doenças graves – entenda quem tem direito, como solicitar e como recuperar valores. Atendimento com hora marcada." />
+  <meta property="og:url" content="https://marinhomendes.adv.br/isenção-ir-doencas-graves" />
+  <meta property="og:site_name" content="Marinho Mendes Sociedade de Advogados" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Isenção de IR por Doença Grave | Marinho Mendes" />
+  <meta name="twitter:description" content="Conteúdo técnico e atendimento ético. Fale com nossos advogados pelo WhatsApp." />
+
+  <!-- Preload a variable font for performance/legibilidade -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0f172a;            /* slate-900 */
+      --bg-soft: #111827;       /* gray-900 */
+      --card: #0b1220;          /* custom dark */
+      --text: #e5e7eb;          /* gray-200 */
+      --muted: #9ca3af;         /* gray-400 */
+      --brand: #14b8a6;         /* teal-500 */
+      --brand-600: #0d9488;     /* teal-600 */
+      --brand-700: #0f766e;     /* teal-700 */
+      --accent: #f59e0b;        /* amber-500 */
+      --ok: #22c55e;            /* green-500 */
+      --warn: #f97316;          /* orange-500 */
+      --err: #ef4444;           /* red-500 */
+      --radius: 16px;
+      --shadow-lg: 0 10px 30px rgba(0,0,0,.35);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: linear-gradient(180deg, var(--bg) 0%, #0a1120 60%, #0a1326 100%);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a { color: var(--brand); text-decoration: none; }
+    a:focus, button:focus, input:focus, select:focus, textarea:focus { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+    /* Layout */
+    .container { width: min(1160px, 92vw); margin: 0 auto; }
+    header {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(8px);
+      background: rgba(15, 23, 42, .75);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; }
+    .brand { display: flex; gap: 12px; align-items: center; }
+    .brand__logo { width: 40px; height: 40px; border-radius: 8px; background: radial-gradient(120% 80% at 20% 20%, var(--brand), var(--brand-700)); box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); }
+    .brand__name { font-weight: 700; letter-spacing: .3px; }
+
+    .nav a { font-weight: 600; margin-left: 16px; }
+    .cta-wpp { display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, var(--brand) 0%, var(--brand-600) 100%); color: #00100e; padding: 10px 16px; border-radius: 999px; font-weight: 700; border: none; box-shadow: var(--shadow-lg); cursor: pointer; }
+    .cta-wpp svg { width: 20px; height: 20px; }
+
+    /* Hero */
+    .hero { padding: clamp(40px, 8vw, 96px) 0 40px; position: relative; overflow: hidden; }
+    .hero__grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(16px, 4vw, 36px); align-items: center; }
+    .pill { display:inline-flex; align-items:center; gap:8px; background: rgba(20,184,166,.1); color: #c7fff5; border: 1px solid rgba(20,184,166,.35); padding: 6px 10px; border-radius: 999px; font-size: .875rem; }
+    .h1 { font-size: clamp(1.8rem, 3.6vw, 3rem); line-height: 1.1; margin: 12px 0; font-weight: 800; }
+    .sub { color: var(--muted); font-size: clamp(1rem, 1.2vw, 1.125rem); }
+
+    .card { background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.08); border-radius: var(--radius); box-shadow: var(--shadow-lg); }
+    .form { padding: 18px; display: grid; gap: 12px; }
+    .form label { font-weight: 600; }
+    .form .field { display: grid; gap: 6px; }
+    .form input, .form select, .form textarea {
+      background: #0a1220; color: var(--text); border: 1px solid rgba(255,255,255,.14); border-radius: 12px; padding: 12px 14px; font-size: 1rem;
+    }
+    .form small { color: var(--muted); }
+    .form .submit { margin-top: 6px; }
+    .consent { display:flex; align-items:flex-start; gap:10px; }
+
+    .badges { display:flex; gap:12px; flex-wrap: wrap; margin-top: 14px; }
+    .badge { background: #0a1326; border: 1px solid rgba(255,255,255,.08); padding: 8px 10px; border-radius: 12px; font-size:.875rem; color: #c7d2fe; }
+
+    /* Sections */
+    section { padding: clamp(36px, 6vw, 72px) 0; }
+    .section-title { font-size: clamp(1.4rem, 2.4vw, 2rem); margin: 0 0 10px; }
+    .lead { color: var(--muted); }
+
+    .grid { display: grid; gap: 18px; }
+    .grid-2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+
+    .list-check { list-style: none; padding: 0; margin: 0; }
+    .list-check li { position: relative; padding-left: 28px; margin: 10px 0; }
+    .list-check li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--ok); font-weight: 900; }
+
+    /* FAQ */
+    details { background: #0a1326; border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: 14px 16px; }
+    summary { cursor: pointer; font-weight: 600; }
+
+    /* Footer */
+    footer { background: #0a1120; border-top: 1px solid rgba(255,255,255,.06); padding-bottom: 36px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1.2fr 1.2fr; gap: 28px; }
+    .small { font-size: .9rem; color: var(--muted); }
+
+    /* Responsive */
+    @media (max-width: 980px) {
+      .hero__grid { grid-template-columns: 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+      /* Extra spacing between menu links and WhatsApp button */
+    .nav .cta-wpp { margin-left: 32px; }
+
+    /* Social icons */
+    .social-list { display:flex; gap:16px; align-items:center; flex-wrap: wrap; }
+    .icon { width: 24px; height: 24px; display:inline-block; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+
+    /* Image placeholders */
+    .img-ph { border: 1.5px dashed rgba(255,255,255,.25); border-radius: 12px; background:#0a1326; display:grid; place-items:center; min-height: 220px; }
+    .img-ph span { color: var(--muted); font-size:.95rem; }
+
+  </style>
+
+  <!-- Structured Data: Organization/LocalBusiness + LegalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Marinho Mendes Sociedade de Advogados",
+    "url": "https://marinhomendes.adv.br/",
+    "areaServed": "Brasil",
+    "priceRange": "Consultar",
+    "telephone": "+55 19 97410-0605",
+    "logo": "https://marinhomendes.adv.br/wp-content/uploads/2024/01/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/marinhomendesadv",
+      "https://www.instagram.com/marinhomendes.adv",
+      "https://www.linkedin.com/company/14030512/"
+    ],
+    "address": [{
+      "@type": "PostalAddress",
+      "streetAddress": "Av. José Rocha Bonfim, 214, Bloco J – Sala 228 – Ed. Milão, Praça Capital, Loteamento Center Santa Genebra",
+      "addressLocality": "Campinas",
+      "addressRegion": "SP",
+      "postalCode": "13080-650",
+      "addressCountry": "BR"
+    },{
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Antônio Nelson Barbosa, 93 – Jardim do Bosque",
+      "addressLocality": "Hortolândia",
+      "addressRegion": "SP",
+      "postalCode": "13186-231",
+      "addressCountry": "BR"
+    }]
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Quem emite o laudo para a isenção de IR?", "acceptedAnswer": {"@type": "Answer", "text": "Via administrativa, laudo de serviço médico oficial (órgão público) ou servidor efetivo do SUS, com CID, data do diagnóstico e assinatura/CRM. Via judicial, o STJ (Súmula 598) admite outros meios de prova e o laudo oficial não é indispensável."}},
+      {"@type": "Question", "name": "A isenção vale para salários ou só para aposentadoria?", "acceptedAnswer": {"@type": "Answer", "text": "Somente para proventos de aposentadoria, pensão, reforma ou reserva, inclusive 13º desses proventos (Lei 7.713/1988, art. 6º, XIV). Salários do trabalho ativo, aluguéis e outras rendas seguem tributados."}},
+      {"@type": "Question", "name": "Quem teve câncer em remissão ainda tem direito?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Comprovada a neoplasia maligna (ou outra doença do rol), o direito não depende de sintomas atuais. A remissão clínica não afasta a isenção, segundo a jurisprudência superior, desde que documentada a condição e a data do diagnóstico."}},
+      {"@type": "Question", "name": "Quanto tempo demora para sair a isenção?", "acceptedAnswer": {"@type": "Answer", "text": "Varia conforme análise administrativa (documentos e perícia) e, se for o caso, tramitação judicial. Não há prazo garantido."}},
+      {"@type": "Question", "name": "É preciso renovar o pedido todo ano?", "acceptedAnswer": {"@type": "Answer", "text": "Em regra, não. A isenção não é anual, mas a fonte pagadora pode pedir atualização cadastral ou documental para manutenção do registro."}},
+      {"@type": "Question", "name": "Como funciona a retroatividade e a restituição?", "acceptedAnswer": {"@type": "Answer", "text": "Valores descontados indevidamente podem ser restituídos até o limite de 5 anos, por declaração retificadora quando cabível e/ou ação judicial. O marco costuma ser a data do diagnóstico ou da aposentadoria, conforme o caso."}},
+      {"@type": "Question", "name": "Posso pedir como representante (cônjuge/parente)?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Mediante procuração ou, quando aplicável, tutela/curatela. No Meu INSS, anexe o instrumento de representação e os documentos do representado."}},
+      {"@type": "Question", "name": "Como declarar a isenção na declaração do IR?", "acceptedAnswer": {"@type": "Answer", "text": "Informar os proventos em \"Rendimentos Isentos e Não Tributáveis\" na rubrica de isenção por moléstia grave aplicada a aposentadoria/pensão/reforma. Guardar laudo e informes da fonte pagadora. Para anos anteriores, avaliar retificadoras."}}
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <header role="banner" aria-label="Topo do site - Marinho Mendes">
+    <div class="container nav">
+      <a class="brand" aria-label="Ir para o site do escritório" href="https://marinhomendes.adv.br/">
+  <img src="img/LogoBranca.png" alt="Logo Marinho Mendes" class="brand__logo" style="object-fit:contain; background:none;" />
+        <div class="brand__name">Marinho Mendes Sociedade de Advogados</div>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#direito" class="skip">Direito</a>
+        <a href="#como" class="skip">Como solicitar</a>
+        <a href="#faq" class="skip">FAQ</a>
+        <button class="cta-wpp" id="ctaHeader" aria-label="Falar no WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.74 11.74 0 0 0 12 .75C5.8.75.77 5.78.77 12c0 2 .51 3.9 1.48 5.6L.75 23.25l5.77-1.48A11.2 11.2 0 0 0 12 23.23c6.22 0 11.25-5.03 11.25-11.25 0-2.99-1.17-5.79-3.23-7.75Zm-8.52 17.2c-1.77 0-3.53-.47-5.07-1.35l-.36-.2-3.42.88.91-3.34-.23-.37A8.94 8.94 0 0 1 3 12C3 7 7.02 2.98 12 2.98c2.39 0 4.64.93 6.33 2.62A8.9 8.9 0 0 1 21.02 12c0 4.99-4.02 9-9.02 9Zm5.15-6.73c-.28-.14-1.66-.82-1.92-.9-.26-.1-.45-.14-.63.14-.19.27-.73.9-.9 1.08-.17.2-.33.22-.6.08-.28-.14-1.16-.43-2.2-1.36-.82-.73-1.37-1.64-1.53-1.92-.17-.27-.02-.42.12-.56.12-.12.27-.31.4-.47.14-.15.18-.26.27-.44.09-.18.05-.33-.02-.47-.07-.14-.62-1.52-.85-2.07-.22-.53-.44-.46-.63-.47h-.54c-.19 0-.5.07-.76.33-.26.27-1 1-.98 2.42.02 1.43 1.04 2.8 1.18 2.98.14.17 2.06 3.16 5 4.43.7.3 1.25.48 1.67.62.7.22 1.34.19 1.85.11.56-.08 1.66-.67 1.9-1.32.23-.64.23-1.18.16-1.32-.07-.14-.26-.22-.54-.36Z"/></svg>
+          WhatsApp
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container" role="main">
+    <section class="hero" aria-labelledby="titulo-hero">
+      <div class="hero__grid">
+        <div>
+          <span class="pill" aria-label="Categoria INSS">INSS • Conteúdo Técnico</span>
+          <h1 id="titulo-hero" class="h1">Isenção de IR por Doença Grave: entenda seu direito e fale com nossos advogados</h1>
+          <p class="sub">Este guia explica, com linguagem clara e base legal, <strong>quem tem direito</strong>, <strong>como solicitar</strong> e <strong>como recuperar valores</strong>. Atendimento <em>mediante agendamento</em>, em conformidade com a OAB (Provimento 205/2021 e Código de Ética). Conteúdo informativo – cada caso requer análise individual.</p>
+
+          <div class="badges" role="list" aria-label="Destaques">
+            <div class="badge" role="listitem">Lei 7.713/1988, art. 6º, XIV</div>
+            <div class="badge" role="listitem">Súmula 598/STJ</div>
+            <div class="badge" role="listitem">Atendimento ético e técnico</div>
+          </div>
+        </div>
+
+        <!-- Formulário de captação -->
+        <aside class="card" aria-labelledby="form-title">
+          <form class="form" id="leadForm" aria-describedby="form-desc">
+            <h2 id="form-title" class="section-title">Converse pelo WhatsApp</h2>
+            <p id="form-desc" class="lead">Envie seus dados para iniciarmos um atendimento <strong>com hora marcada</strong>. Em seguida, abriremos o WhatsApp com uma mensagem pré-preenchida.</p>
+
+            <div class="field">
+              <label for="nome">Nome completo</label>
+              <input id="nome" name="nome" type="text" minlength="3" autocomplete="name" required aria-required="true" />
+            </div>
+
+            <div class="field">
+              <label for="telefone">Celular (WhatsApp)</label>
+              <input id="telefone" name="telefone" type="tel" inputmode="tel" pattern="^[0-9()+\-\s]{10,}$" placeholder="(19) 9 7410-0605" required aria-required="true" />
+              <small>Use apenas números e símbolos válidos.</small>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-required="true" />
+            </div>
+
+            <div class="field">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto" required aria-required="true">
+                <option value="" disabled selected>Selecione…</option>
+                <option>Isenção de IR – doença grave</option>
+                <option>Restituição retroativa</option>
+                <option>Perícia e laudos</option>
+                <option>Outros (Previdenciário)</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="mensagem">Mensagem (opcional)</label>
+              <textarea id="mensagem" name="mensagem" rows="3" placeholder="Descreva sua situação em poucas linhas"></textarea>
+            </div>
+
+            <!-- honeypot anti-bot -->
+            <div class="field" hidden aria-hidden="true">
+              <label for="website">Site</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <div class="consent">
+              <input id="lgpd" name="lgpd" type="checkbox" required aria-required="true" />
+              <label for="lgpd">Autorizo o tratamento dos meus dados pessoais para contato e atendimento, conforme a LGPD. <span class="small">(Você poderá revogar a qualquer momento.)</span></label>
+            </div>
+
+            <button type="submit" class="cta-wpp submit" aria-label="Abrir conversa no WhatsApp">Iniciar conversa</button>
+            <div id="formAlert" role="status" aria-live="polite" class="small" style="min-height:1.25rem;"></div>
+            <small class="small">Não constituímos relação advogado-cliente com este formulário. Um contrato específico será apresentado antes de qualquer atuação.</small>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section id="direito" aria-labelledby="sec-direito">
+      <h2 id="sec-direito" class="section-title">Seu direito à isenção de IR por moléstia grave</h2>
+      <p class="lead">A <strong>Lei nº 7.713/1988, art. 6º, XIV</strong>, concede isenção do Imposto de Renda sobre <strong>aposentadoria, pensão, reforma ou reserva</strong> (inclusive 13º desses proventos) quando comprovada uma das doenças listadas em lei. Outros rendimentos (salário em atividade, aluguéis, etc.) permanecem tributados.</p>
+
+      <div class="grid grid-3">
+        <div class="card" style="padding:16px;">
+          <h3>Quem tem direito</h3>
+          <ul class="list-check">
+            <li>Aposentados, pensionistas e militares reformados/reserva com doença do rol legal.</li>
+            <li>Direito possível mesmo com diagnóstico após a concessão do benefício.</li>
+            <li>Não exige incapacidade total para o trabalho – foco é a moléstia grave.</li>
+          </ul>
+        </div>
+        <div class="card" style="padding:16px;">
+          <h3>Doenças previstas (exemplos)</h3>
+          <ul class="list-check">
+            <li>Câncer (neoplasia maligna), cardiopatia grave, Parkinson, esclerose múltipla.</li>
+            <li>Cegueira (inclui monocular), nefropatia/hepatopatia grave, hanseníase.</li>
+            <li>Moléstia profissional, alienação mental, paralisia incapacitante, AIDS, e outras.</li>
+          </ul>
+        </div>
+        <div class="card" style="padding:16px;">
+          <h3>Prova do direito</h3>
+          <ul class="list-check">
+            <li>Via administrativa: laudo de <strong>serviço médico oficial</strong> (SUS ou perito público).</li>
+            <li>Via judicial: provas clínicas e periciais bastam; <em>laudo oficial não é imprescindível</em> (<strong>Súmula 598/STJ</strong>).</li>
+            <li>Direito subsiste mesmo em remissão/controle, se comprovado.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="como" aria-labelledby="sec-como">
+      <h2 id="sec-como" class="section-title">Como solicitar (passo a passo)</h2>
+      <div class="grid grid-2">
+        <div class="card" style="padding:16px;">
+          <h3>Pedido administrativo</h3>
+          <ol>
+            <li>Acesse o <strong>Meu INSS</strong> (app/site) e faça login.</li>
+            <li>Busque por “isenção” e selecione o serviço correspondente.</li>
+            <li>Anexe laudo médico oficial com CID, data do diagnóstico e assinatura.</li>
+            <li>Compareça à perícia se convocado e acompanhe em “Consultar Pedidos”.</li>
+            <li>Após deferimento, informe rendimentos como <em>Isentos e Não-Tributáveis</em> na declaração do IR.</li>
+          </ol>
+        </div>
+        <div class="card" style="padding:16px;">
+          <h3>Se negado, o que fazer?</h3>
+          <ul class="list-check">
+            <li>Apresente <strong>recurso administrativo</strong> (INSS/Receita Federal).</li>
+            <li>Busque a <strong>via judicial</strong>; é possível pleitear <strong>restituição</strong> de até 5 anos.</li>
+            <li>A retroatividade conta do diagnóstico ou da aposentadoria, conforme o caso.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="padding:16px; margin-top:18px;">
+        <h3>Por que a presença do advogado é importante?</h3>
+        <ul class="list-check">
+          <li><strong>Análise técnica</strong> do enquadramento legal e da prova médica adequada (evita indeferimentos por formalidade).</li>
+          <li><strong>Estrategia processual</strong>: escolha da via (administrativa ou judicial), pedidos corretos e cálculo de <em>restituição</em>.</li>
+          <li><strong>Segurança jurídica</strong>: atuação em conformidade com a lei e com a jurisprudência (v.g., Súmula 598/STJ).</li>
+          <li><strong>Economia de tempo e redução de risco</strong>: organização documental e acompanhamento de prazos.</li>
+        </ul>
+        <p class="small">Atendemos com hora marcada. Não prometemos resultados; cada caso é analisado individualmente, em respeito ao Código de Ética e ao Provimento 205/2021 da OAB.</p>
+      </div>
+    </section>
+
+    <section id="conteudo" aria-labelledby="sec-conteudo">
+      <h2 id="sec-conteudo" class="section-title">Conteúdo educativo (resumo)</h2>
+      <p>Este material segue a linha do artigo do nosso blog <a href="https://www.marinhomendes.adv.br/blog/isencao-de-ir-para-doencas-graves/" rel="noopener">“Isenção de IR para Doenças Graves: Seu Direito Explicado com Leveza”</a>, atualizado em 02/09/2025, com foco em clareza e precisão.</p>
+      <div class="grid grid-2">
+        <div class="card" style="padding:16px;">
+          <h3>Essência do direito</h3>
+          <p>Dispensa de IR sobre proventos de <strong>aposentadoria/pensão/reforma</strong>, inclusive 13º, para doenças do art. 6º, XIV, da Lei 7.713/88. Outras rendas continuam tributadas.</p>
+          <h4>Retroatividade e restituição</h4>
+          <p>Se houve desconto indevido, é possível recuperar até <strong>5 anos</strong> (declaração retificadora e/ou ação judicial).</p>
+        </div>
+        <div class="card" style="padding:16px;">
+          <h3>Boas práticas</h3>
+          <ul class="list-check">
+            <li>Laudo com <strong>CID</strong>, data e assinatura; prefira órgão público.</li>
+            <li>Organize exames e relatórios; mantenha cópias digitais.</li>
+            <li>Na declaração, classifique corretamente como <em>isentos</em>.</li>
+            <li>Mantenha contato com advogado para dúvidas, recursos e cálculos.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid" style="margin-top:16px;">
+        <figure style="border-radius:12px;overflow:hidden;margin:0;box-shadow:var(--shadow-lg);background:#0a1326;display:grid;place-items:center;min-height:220px;">
+          <img src="img/entubada.png" alt="Imagem ilustrativa do tema" style="width:100%;max-width:1600px;height:auto;display:block;object-fit:cover;" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Nova seção: Credibilidade e compromisso -->
+    <section id="credibilidade" aria-labelledby="sec-cred">
+      <h2 id="sec-cred" class="section-title">Nosso compromisso e credibilidade</h2>
+      <div class="grid grid-2">
+        <div class="card" style="padding:16px;">
+          <h3>Atuação responsável</h3>
+          <ul class="list-check">
+            <li><strong>Conformidade OAB</strong>: publicidade moderada, informação clara e sem promessa de resultado.</li>
+            <li><strong>Especialização</strong> em Direito Previdenciário e interface tributária do IR em proventos.</li>
+            <li><strong>Metodologia</strong>: triagem documental, enquadramento legal e estratégia adequada ao caso.</li>
+            <li><strong>LGPD</strong>: tratamento mínimo e seguro de dados, com base legal e transparência.</li>
+          </ul>
+          <p class="small">Nossa comunicação é educativa. Avaliamos cada caso com rigor técnico e seriedade, priorizando a segurança jurídica do cliente.</p>
+        </div>
+        <div class="card" style="padding:16px;">
+          <h3>Atendimento acolhedor e organizado</h3>
+          <ul class="list-check">
+            <li>Agenda com horário marcado e acompanhamento de prazos.</li>
+            <li>Orientação passo a passo sobre laudos, perícias e declarações.</li>
+            <li>Transparência sobre riscos, custos e prazos estimados.</li>
+          </ul>
+        <figure style="border-radius:12px;overflow:hidden;margin-top:12px;box-shadow:var(--shadow-lg);background:#0a1326;display:grid;place-items:center;min-height:220px;">
+          <img src="img/atendimento_presencial.png" alt="Equipe/Atendimento" style="width:100%;max-width:1200px;height:auto;display:block;object-fit:cover;" />
+        </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nova seção: Orientações a cônjuges e familiares -->
+    <section id="familia" aria-labelledby="sec-familia">
+      <h2 id="sec-familia" class="section-title">Orientações a cônjuges e familiares</h2>
+      <div class="grid grid-2">
+        <div class="card" style="padding:16px;">
+          <h3>Como ajudar o segurado</h3>
+          <ol>
+            <li>Reúna documentos: RG/CPF, comprovante de benefício (carta de concessão/extrato), laudos e exames.</li>
+            <li>Providencie <strong>procuração</strong> (ou tutela/curatela quando cabível) para representação.</li>
+            <li>Organize um breve histórico clínico com datas de diagnóstico e tratamentos.</li>
+            <li>Agende atendimento para definir via administrativa ou judicial, se necessária.</li>
+          </ol>
+        </div>
+        <div class="card" style="padding:16px;">
+          <h3>Boas práticas para familiares</h3>
+          <ul class="list-check">
+            <li>Respeitar a <strong>privacidade</strong> do paciente e obter consentimento.</li>
+            <li>Manter cópias digitais dos documentos e laudos.</li>
+            <li>Checar prazos e notificações do Meu INSS ou Receita Federal.</li>
+            <li>Consultar o advogado para dúvidas sobre prova e retroatividade.</li>
+          </ul>
+        <figure style="border-radius:12px;overflow:hidden;margin-top:12px;box-shadow:var(--shadow-lg);background:#0a1326;display:grid;place-items:center;min-height:220px;">
+          <img src="img/familia.png" alt="Imagem informativa" style="width:100%;max-width:1000px;height:auto;display:block;object-fit:cover;" />
+        </figure>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="faq" aria-labelledby="sec-faq">
+      <h2 id="sec-faq" class="section-title">Perguntas Frequentes</h2>
+      <div class="grid">
+        <details>
+          <summary>Quem emite o laudo para conseguir a isenção de IR?</summary>
+          <p><strong>Via administrativa</strong>: exige-se laudo emitido por <strong>serviço médico oficial</strong> (órgão público) ou por <strong>servidor efetivo do SUS</strong>, contendo <em>CID</em>, <em>data do diagnóstico</em>, <em>assinatura e identificação/CRM</em>. <strong>Laudos particulares</strong> podem subsidiar, mas não substituem o laudo oficial no pedido ao INSS.</p>
+          <p><strong>Via judicial</strong>: o <strong>STJ (Súmula 598)</strong> firmou entendimento de que o <em>laudo oficial não é indispensável</em>, admitindo-se outros meios de prova (prontuários, exames, relatórios do médico assistente e perícia judicial). Em qualquer cenário, recomenda-se organizar <em>linha do tempo</em> com datas relevantes.</p>
+        </details>
+        <details>
+          <summary>A isenção vale para salários ou só para aposentadoria?</summary>
+          <p>Aplica-se <strong>somente</strong> aos <strong>proventos de aposentadoria, pensão, reforma ou reserva</strong>, inclusive o <strong>13º</strong> desses proventos (<strong>Lei 7.713/1988, art. 6º, XIV</strong>). <strong>Salários do trabalho ativo</strong>, <strong>aluguéis</strong> e demais rendas permanecem tributados. A fonte pagadora deve cessar a retenção após o deferimento e a declaração deve refletir a natureza <em>isenta</em> dos proventos.</p>
+        </details>
+        <details>
+          <summary>Quem teve câncer em remissão ainda tem direito?</summary>
+          <p>Sim. O direito não exige contemporaneidade de sintomas. Uma vez <strong>comprovada a neoplasia maligna</strong> (ou outra doença do rol legal), a isenção <strong>permanece válida</strong> mesmo em remissão, desde que documentada a condição e sua data de diagnóstico. Esse entendimento é reiterado pela jurisprudência superior.</p>
+        </details>
+        <details>
+          <summary>Quanto tempo demora para sair a isenção?</summary>
+          <p>Depende do <strong>fluxo administrativo</strong> (análise documental e eventual perícia) e da <strong>completude das provas</strong>. Pedidos com documentação clara tendem a ser mais céleres. Na <strong>via judicial</strong>, os prazos são naturalmente maiores, pois envolvem perícia e tramitação processual. <em>Não podemos prometer prazos</em>; atuamos para reduzir riscos e evitar retrabalho.</p>
+        </details>
+        <details>
+          <summary>É preciso renovar o pedido todo ano?</summary>
+          <p>Em regra, <strong>não</strong>. A lei não condiciona a isenção à renovação anual. Contudo, a <strong>fonte pagadora</strong> pode solicitar <strong>atualização cadastral</strong> ou documentos para manter o cadastro em dia. Guarde cópias de laudos e relatórios e mantenha seus dados atualizados.</p>
+        </details>
+        <details>
+          <summary>Como funciona a retroatividade e a restituição?</summary>
+          <p>Se houve <strong>desconto indevido</strong> após o preenchimento dos requisitos, é possível buscar a <strong>restituição</strong> dos valores, limitada ao prazo <strong>quinquenal</strong> (até 5 anos). Isso se dá por <strong>declaração retificadora</strong> (quando aplicável) e/ou por <strong>ação judicial</strong>. A contagem retroativa costuma considerar a <strong>data do diagnóstico</strong> ou a <strong>data da aposentadoria</strong>, conforme o caso e a prova.</p>
+        </details>
+        <details>
+          <summary>Posso pedir como representante (cônjuge/parente)?</summary>
+          <p>Sim. É possível requerer como <strong>representante legal</strong>, mediante <strong>procuração</strong> (ou <strong>tutela/curatela</strong>, quando pertinente). No <em>Meu INSS</em>, anexe o instrumento de representação e a documentação do representado. Em juízo, a representação segue as regras processuais usuais.</p>
+        </details>
+        <details>
+          <summary>Como declarar a isenção na declaração do IR?</summary>
+          <p>Após o deferimento, os proventos devem ser informados em <strong>“Rendimentos Isentos e Não Tributáveis”</strong>, na categoria específica de <em>isenção por moléstia grave aplicada a aposentadoria/pensão/reforma</em>. Guarde o laudo e os comprovantes da fonte pagadora. Se houver restituição de anos anteriores, avalia-se retificar as declarações afetadas.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="sec-contato">
+      <h2 id="sec-contato" class="section-title">Canais oficiais</h2>
+      <div class="grid grid-2">
+        <div class="card" style="padding:16px;">
+          <h3>Endereços</h3>
+          <ul>
+            <li><strong>Campinas:</strong> Av. José Rocha Bonfim, 214, Bloco J – Sala 228 – Ed. Milão, Praça Capital, Loteamento Center Santa Genebra, CEP 13080-650. <span class="small">Fone: (19) 3209-0417.</span></li>
+            <li><strong>Hortolândia:</strong> Rua Antônio Nelson Barbosa, 93 – Jardim do Bosque, CEP 13186-231. <span class="small">Fone/Fax: (19) 3845-4946.</span></li>
+          </ul>
+          <p class="small">Atendimento mediante agendamento. WhatsApp oficial: <a href="#" id="wppFooter">+55 (19) 97410-0605</a></p>
+        </div>
+        <div class="card" style="padding:16px;">
+          <h3>Contatos e sites</h3>
+          <ul>
+            <li><a href="https://marinhomendes.adv.br/" rel="noopener">Site institucional</a></li>
+            <li><a href="https://marinhomendes.adv.br/blog" rel="noopener">Blog</a></li>
+            <li>E-mail: <a href="mailto:adm@marinhomendes.adv.br">adm@marinhomendes.adv.br</a></li>
+          </ul>
+          <div class="social-list" aria-label="Redes sociais">
+            <a href="https://www.instagram.com/marinhomendes.adv" aria-label="Instagram" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2.2A2.8 2.8 0 1 0 12 17.8 2.8 2.8 0 0 0 12 9.2Zm5.25-.95a.95.95 0 1 1 0 1.9.95.95 0 0 1 0-1.9Z"/>
+              </svg>
+              <span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://www.facebook.com/marinhomendesadv" aria-label="Facebook" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M13 22v-8h3l1-4h-4V7.5c0-1.16.32-1.95 1.98-1.95H17V2.26C16.33 2.18 15.25 2 14 2c-3.05 0-5 1.86-5 5.28V10H6v4h3v8h4Z"/>
+              </svg>
+              <span class="sr-only">Facebook</span>
+            </a>
+            <a href="https://www.linkedin.com/company/14030512/" aria-label="LinkedIn" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.5 8.5h4.9v14H.5v-14Zm7.5 0h4.7v1.9h.06c.66-1.25 2.26-2.56 4.65-2.56 4.98 0 5.9 3.28 5.9 7.54v7.12h-4.9v-6.3c0-1.5-.03-3.43-2.1-3.43-2.1 0-2.42 1.64-2.42 3.33v6.4H8v-14Z"/>
+              </svg>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="small" style="margin-top:12px;">
+        <p><strong>Compliance OAB:</strong> Conteúdo informativo, sem promessa de resultado ou captação indevida. Publicidade moderada e identificação do responsável técnico. Atendimento mediante agendamento.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>Marinho Mendes Sociedade de Advogados</strong></p>
+        <p class="small">Direito Previdenciário, Tributário e Cível. Esta página trata de <em>isenção de IR por moléstia grave</em> com finalidade educativa. Para atuação, formalizamos contrato e procuramos o melhor enquadramento jurídico.</p>
+      </div>
+      <div>
+        <p><strong>Horário de atendimento</strong></p>
+        <p class="small">Somente com agendamento.</p>
+        <p class="small">WhatsApp: <a href="#" id="wppFooter2">+55 (19) 97410-0605</a></p>
+      </div>
+      <div>
+        <p><strong>Avisos</strong></p>
+        <p class="small">Este material não substitui consulta individual. Cada caso tem particularidades. Em respeito ao Provimento 205/2021 e ao Código de Ética da OAB, evitamos linguagem persuasiva excessiva e não garantimos resultados.</p>
+        <p class="small"><a href="#" aria-label="Política de Privacidade (modelo)">Política de Privacidade</a> · <a href="#" aria-label="Termos de Uso (modelo)">Termos de Uso</a></p>
+      </div>
+    </div>
+    <div class="container small" style="margin-top:18px;">© <span id="ano"></span> Marinho Mendes Sociedade de Advogados</div>
+  </footer>
+
+  <script>
+    // Helpers
+    const wppNumber = '5519974100605';
+    const utm = 'utm_source=lp_ir_doencas_graves&utm_medium=site&utm_campaign=conversao_wpp';
+
+    function buildWhatsAppURL(message) {
+      const text = encodeURIComponent(message);
+      return `https://wa.me/${wppNumber}?text=${text}&${utm}`;
+    }
+
+    function openWhatsApp(prefill) {
+      const url = buildWhatsAppURL(prefill);
+      window.open(url, '_blank', 'noopener');
+    }
+
+    // CTA Header
+    document.getElementById('ctaHeader').addEventListener('click', () => {
+      const msg = 'Olá! Tenho interesse na isenção de IR por doença grave. Gostaria de agendar um horário.';
+      openWhatsApp(msg);
+    });
+
+    // Footer links
+    document.getElementById('wppFooter').addEventListener('click', (e) => { e.preventDefault(); openWhatsApp('Olá! Poderiam me orientar sobre isenção de IR por doença grave?'); });
+    document.getElementById('wppFooter2').addEventListener('click', (e) => { e.preventDefault(); openWhatsApp('Olá! Gostaria de agendar atendimento.'); });
+
+    // Form handling + A11y alerts
+    const form = document.getElementById('leadForm');
+    const alertEl = document.getElementById('formAlert');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      // honeypot
+      if (form.website && form.website.value) {
+        alertEl.textContent = 'Falha na validação.';
+        alertEl.style.color = 'var(--err)';
+        return;
+      }
+
+      if (!form.checkValidity()) {
+        alertEl.textContent = 'Por favor, corrija os campos destacados.';
+        alertEl.style.color = 'var(--err)';
+        return;
+      }
+
+      const nome = form.nome.value.trim();
+      const tel = form.telefone.value.trim();
+      const email = form.email.value.trim();
+      const assunto = form.assunto.value;
+      const mensagem = (form.mensagem.value || '').trim();
+
+      const prefill = `Olá, sou ${nome}. Meu WhatsApp é ${tel} e meu e-mail é ${email}. Assunto: ${assunto}. ${mensagem ? 'Mensagem: ' + mensagem : ''}`;
+      openWhatsApp(prefill);
+      alertEl.textContent = 'Abrindo o WhatsApp em uma nova aba…';
+      alertEl.style.color = 'var(--ok)';
+
+      // opcional: limpar formulário após abrir o WhatsApp
+      form.reset();
+    });
+
+    // Ano no rodapé
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
